@@ -49,7 +49,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
 }
-.book:hover, .join.hover {
+.book:hover, .join:hover {
     background-color: white;
     color: blue;
 }
@@ -73,7 +73,7 @@ footer a {
     color: white;
     text-decoration: none;
 }
-footer a:hoover {
+footer a:hover {
     color: #b5ad92;
 }
 footer p {
