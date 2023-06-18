@@ -111,7 +111,7 @@ footer {
     background-color: #053e61;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -180,6 +180,54 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+.background-header {
+    background-image: url("../images/raftingdark.jpeg");
+    min-height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-text {
+    color: white;
+}
+.overview-container {
+    text-align: left;
+    font-size: 16px;
+}
+li {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.overview-container p {
+    padding-left: 24px;
+    max-width: 400px;
+}
+.pricing-container{
+    display: flex;
+    width: 100%;
+}
+.pricing-left-wrapper{
+    flex: 1;
+}
+.pricing-img-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.happy-rafter{
+    max-width: 100%;
+}
+.long-image-section {
+    background-image: url("../images/largerafting.png");
+    height: 400px;
+    background-size: cover;
+}
+section {
+    padding: 18px;
 }
 
 @media screen and (max-width: 900px) {
