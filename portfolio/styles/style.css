@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Lato&family=Noto+Sans:wght@300&family=Roboto&display=swap');
+
+.logo {
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #23403e;
+    font-family: Lato, sans-serif;
+}
+nav a {
+    text-align: center;
+    padding: 35px;
+    color: white;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.hero-img{
+    flex: 2;
+    max-width: 80%;
+    margin-left: 0px;
+}
+.hero-msg{
+    flex: 1;
+    max-width: 100%;
+    margin-right: 0px;
+    text-align: left;
+    font-family: Noto Sans, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #c4b4a2;
+    margin: 0;
+    max-width: 1600px;
+    padding: 0;
+    margin-right: 0;
+}
+.laptop-img {
+    height: 500px; /* Adjust the height as needed */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin: 0;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #23403e;
+    color: white;
+    font-family: Lato, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#site-plan {
+    color: white;
+    text-decoration: none;
+}
+#site-plan:hover{
+    color: #c4b4a2;
+}
