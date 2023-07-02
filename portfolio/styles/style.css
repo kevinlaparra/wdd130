@@ -71,6 +71,7 @@ body {
     justify-content: space-around;
     text-align: center;
     align-self: center;
+    font-family: lato, roboto, sans-serif;
 }
 .social-media {
     display: flex;
@@ -90,6 +91,7 @@ footer{
 #site-plan {
     color: white;
     text-decoration: none;
+    font-family: Lato, sans-serif;
 }
 #site-plan:hover{
     color: #c4b4a2;
