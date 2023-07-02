@@ -56,8 +56,9 @@ nav {
 body {
     background-color: #c4b4a2;
     margin: 0;
-    max-width: 1600px;
+    max-width: 100%;
     padding: 0;
+    margin-right: 0;
 }
 .parallax { 
     background-image: url("../images/homepage.03.avif");
