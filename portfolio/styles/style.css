@@ -92,6 +92,7 @@ footer{
     font-family: Lato, sans-serif;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 #site-plan {
     color: white;
@@ -100,4 +101,54 @@ footer{
 }
 #site-plan:hover{
     color: #c4b4a2;
+}
+main {
+    text-align: center;
+}
+.about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme_msg {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+    font-family: Noto Sans, Roboto, sans-serif;
+    color: black;
+    padding-right: 30px;
+
+}
+.aboutme_img {
+    margin: 50px;
+}
+.camping-card, .grandpa-card, .beach-card {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 50px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.beach-card {
+    grid-column: 1/2;
+
+}
+.grandpa-card {
+    grid-column: 2/3;
+   
+}
+.camping-card {
+    grid-column: 3/4;
+
+}
+.card-img {
+    width: 70%;
+    border: 10px solid #39393b;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
